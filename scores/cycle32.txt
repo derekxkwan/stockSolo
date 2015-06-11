@@ -1,0 +1,72 @@
+cycleNum 2;
+numPeriods 10;
+perTime 9000;
+bps 12;
+subDiv 1;
+
+period 1;
+dryL 1;
+dryR 1;
+numPerfsDryL 2;
+numPerfsDryR 0;
+fbL 0;
+fbR 0;
+numPerfsFbL 0;
+numPerfsFbR 0;
+outL 1;
+outR 1;
+
+9000 period 2;
+numPerfsDryL 1;
+fbL 1;
+numPerfsFbL 1;
+outR 0;
+
+9000 period 3;
+fbR 1;
+
+9000 period 4;
+dryL 0;
+numPerfsDryL 0;
+numPerfsDryR 1;
+numPerfsFbL 0;
+
+9000 period 5;
+numPerfsDryR 2;
+numPerfsFbL 1;
+numPerfsFbR 1;
+outL 0;
+outR 1;
+
+9000 period 6;
+numPerfsDryR 0;
+numPerfsFbL 0;
+numPerfsFbR 0;
+outL 1;
+
+9000 period 7;
+dryL 1;
+numPerfsDryL 1;
+fbL 0;
+outR 0;
+
+9000 period 8;
+numPerfsDryL 0;
+fbL 1;
+numPerfsFbL 0;
+
+9000 period 9;
+dryL 0;
+fbL 0;
+numPerfsFbL 0;
+
+4000 outL 0;
+1000 outL 1;
+
+4000 period 10;
+numPerfsDryR 2;
+outL 0;
+
+9000 cycle3Start bang;
+
+
