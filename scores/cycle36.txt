@@ -1,0 +1,70 @@
+cycleNum 6;
+numPeriods 6;
+perTime 45600;
+bps 15;
+subDiv 4;
+
+period 1;
+dryL 0;
+dryR 0;
+numPerfsDryL 2;
+numPerfsDryR 2;
+fbL 0;
+fbR 0;
+numPerfsFbL 0;
+numPerfsFbR 0;
+outL 1;
+outR 1;
+
+
+6000 dryL 1;
+dryR 1;
+outL 0;
+outR 0;
+
+39600 period 2;
+numPerfsDryL 1;
+numPerfsDryR 0;
+fbL 1;
+fbR 1;
+numPerfsFbL 1;
+outL 0;
+outR 0;
+
+6000 outR 1;
+
+39600 period 3;
+numPerfsDryL 0;
+numPerfsDryR 3;
+numPerfsFbL 0;
+outL 1;
+outR 0;
+
+45600 period 4;
+numPerfsDryL 3;
+numPerfsDryR 0;
+numPerfsFbL 1;
+outL 0;
+outR 1;
+
+45600 period 5;
+numPerfsDryL 2;
+numPerfsDryR 3;
+numPerfsFbL 0;
+outL 1;
+outR 0;
+
+45600 period 6;
+dryL 0;
+dryR 0;
+numPerfsDryL 0;
+numPerfsDryR 0;
+fbL 0;
+fbR 0;
+outL 0;
+outR 1;
+
+6000 outL 1;
+
+39600 stop bang;
+stopTgl bang;
