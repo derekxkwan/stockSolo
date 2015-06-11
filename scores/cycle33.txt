@@ -1,0 +1,81 @@
+cycleNum 3;
+numPeriods 8;
+perTime 20250;
+bps 12;
+subDiv 2;
+
+period 1;
+dryL 1;
+dryR 0;
+numPerfsDryL 2;
+numPerfsDryR 0;
+fbL 0;
+fbR 0;
+numPerfsFbL 0;
+numPerfsFbR 0;
+outL 0;
+outR 1;
+
+20250 period 2;
+dryL 0;
+dryR 0;
+numPerfsDryL 0;
+numPerfsDryR 2;
+fbL 1;
+numPerfsFbL 2;
+outL 1;
+outR 0;
+
+20250 period 3;
+dryL 0;
+numPerfsDryR 0;
+fbL 0;
+fbR 1;
+numPerfsFbL 0;
+numPerfsFbR 2;
+outR 1;
+
+20250 period 4;
+dryL 1;
+numPerfsDryL 3;
+numPerfsFbR 3;
+outL 0;
+
+20250 period 5;
+dryL 0;
+numPerfsDryL 0;
+fbL 1;
+fbR 0;
+numPerfsFbL 2;
+numPerfsFbR 0;
+outL 1;
+
+20250 period 6;
+dryL 1;
+dryR 1;
+numPerfsDryL 2;
+numPerfsDryR 3;
+fbL 0;
+numPerfsFbL 0;
+
+5000 outR 0;
+
+15250 period 7;
+dryR 0;
+numPerfsDryL 0;
+numPerfsDryR 1;
+fbL 1;
+fbR 1;
+numPerfsFbR 2;
+fbR 1;
+
+20250 period 8;
+numPerfsFbL 1;
+outL 0;
+
+13500 dryL 0;
+fbL 0;
+fbR 0;
+
+6750 cycle4Start bang;
+
